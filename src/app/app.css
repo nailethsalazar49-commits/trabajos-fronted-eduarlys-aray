@@ -14,7 +14,7 @@
   padding: 0 20px;
 }
 
-.logo {
+.iconoUsuario {
   font-weight: bold;
   font-size: 20px;
 }
@@ -27,7 +27,7 @@
 
 }
 
-.icon {
+.iconoUsuario {
   width: 24px;
   height: 24px;
   border-radius: 50%; 
