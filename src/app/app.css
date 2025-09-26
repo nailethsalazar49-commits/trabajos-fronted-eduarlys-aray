@@ -37,9 +37,33 @@
 }
 /*barra lateral*/
 .menuLateral{
-  position: fixed;
-  left: 0;
+  position: absolute;
   width: 250px;
-  height: 100vh;
+  height: 50px;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  box-sizing: border-box;
   
+}
+.menuLateral-1estudiante{
+ top: 60;
+ background-color:#C8CCD0 ;
+}
+.menuLateral-2grupos{
+  top: 110px;
+  background-color: #C8CCD0;
+}
+.menuLateral-3materias{
+  top:160px;
+  background-color:#C8CCD0 ;
+}
+.menuLateral-4evaluaciones{
+  top: 210;
+  background-color:#C8CCD0 ;
+}
+.menuLateral-5informes{
+  top: 260px; 
+  background-color: #C8CCD0;
 }
