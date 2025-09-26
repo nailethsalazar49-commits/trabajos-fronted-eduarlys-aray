@@ -1,4 +1,3 @@
-
 /*header*/
 .header {
   top: 0px;
@@ -32,11 +31,12 @@
 .iconoUsuario {
   width: 24px;
   height: 24px;
-  border-radius: 50%; 
-  
+  border-radius: 50%;
+
 }
+
 /*barra lateral*/
-.menuLateral{
+.menuLateral {
   position: absolute;
   width: 250px;
   height: 50px;
@@ -45,25 +45,55 @@
   align-items: center;
   padding-left: 20px;
   box-sizing: border-box;
-  
+
 }
-.menuLateral-1estudiante{
- top: 60;
- background-color:#C8CCD0 ;
+
+/* menú lateral */
+.menuLateral {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 250px;
+  height: 100vh;
+  background-color: #f0f0f0;
+  z-index: 1000;
+ 
 }
-.menuLateral-2grupos{
+
+/* estilos de los div */
+.menuLateral div {
+  position: absolute;
+  width: 250px;
+  height: 50px;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+
+.estudiante {
+  top: 60px;
+  background-color: #C8CCD0;
+}
+
+.grupos {
   top: 110px;
   background-color: #C8CCD0;
 }
-.menuLateral-3materias{
-  top:160px;
-  background-color:#C8CCD0 ;
+
+.materias {
+  top: 160px;
+  background-color: #C8CCD0;
 }
-.menuLateral-4evaluaciones{
-  top: 210;
-  background-color:#C8CCD0 ;
+
+.evaluaciones {
+  top: 210px;
+  background-color: #C8CCD0;
 }
-.menuLateral-5informes{
-  top: 260px; 
+
+.informes {
+  top: 260px;
   background-color: #C8CCD0;
 }
