@@ -1,0 +1,178 @@
+<div class="contenedorPrincipal">
+  <!-- Barra de arriba -->
+  <div class="barraArriba">
+    <div class="logo">QUIPUX</div>
+    <div class="usuarioInfo">
+      <span>Carolina Fernández Echeverry</span>
+      <img src="icono-usuario.png" alt="usuario" class="iconoUsario">
+    </div>
+  </div>
+
+  <!-- Contenedor con sidebar y contenido -->
+  <div class="contenedorMain">
+    <!-- Menu lateral -->
+    <div class="menuLateral">
+      <div class="itemMenu activo">Estudiantes</div>
+      <div class="itemMenu">Grupos</div>
+      <div class="itemMenu">Materias</div>
+      <div class="itemMenu">Evaluaciones</div>
+      <div class="itemMenu">Informes</div>
+    </div>
+
+    <!-- Contenido principal -->
+    <div class="contenidoPrincipal">
+      <div class="encabezado">
+        <h1>Administración de estudiantes</h1>
+        <button class="botnNuevoRegistro">
+          <img src="icono-mas.png" alt="nuevo" class="iconoBotn">
+          Nuevo registro
+        </button>
+      </div>
+
+      <!-- Formulario de busqueda -->
+      <div class="formularioBusqueda">
+        <div class="fila">
+          <div class="campoForm">
+            <label>Grado</label>
+            <select class="selectGrado">
+              <option>--</option>
+            </select>
+          </div>
+
+          <div class="campoForm">
+            <label>Grupo</label>
+            <select class="selectGrupo">
+              <option>--</option>
+            </select>
+          </div>
+
+          <div class="campoForm">
+            <label>Identificación</label>
+            <select class="selectIdentificacion">
+              <option>TI</option>
+            </select>
+          </div>
+
+          <div class="campoForm">
+            <input type="text" placeholder="Número documento" class="inputDocumento">
+          </div>
+
+          <div class="campoForm">
+            <label>Estudiante</label>
+            <select class="selectEstudiante">
+              <option>Seleccionar</option>
+            </select>
+          </div>
+
+          <button class="botnBuscar">Buscar</button>
+          <button class="botnLimpiar">Limpiar filtros</button>
+        </div>
+      </div>
+
+      <!-- Seccion de resultados -->
+      <div class="seccionResultados">
+        <div class="encabezadoResultados">
+          <h2>Resultados</h2>
+          <div class="controlesMostrar">
+            <span>Mostrar</span>
+            <select class="selectMostrar">
+              <option>4</option>
+              <option>10</option>
+              <option>25</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Tabla de estudiantes -->
+        <table class="tablaEstudiantes">
+          <thead>
+            <tr>
+              <th>Código <img src="icono-ordenar.png" class="iconoOrdenar"></th>
+              <th>Identificación <img src="icono-ordenar.png" class="iconoOrdenar"></th>
+              <th>Estudiante <img src="icono-ordenar.png" class="iconoOrdenar"></th>
+              <th>Grado <img src="icono-ordenar.png" class="iconoOrdenar"></th>
+              <th>Grupo <img src="icono-ordenar.png" class="iconoOrdenar"></th>
+              <th>Estado <img src="icono-ordenar.png" class="iconoOrdenar"></th>
+              <th>Acciones</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2022101</td>
+              <td>TI 1088123456</td>
+              <td>Camila Fernández Rojas</td>
+              <td>10</td>
+              <td>A</td>
+              <td>En curso</td>
+              <td class="accionesCell">
+                <img src="icono-ver.png" alt="ver" class="iconoAccion">
+                <img src="icono-eliminar.png" alt="eliminar" class="iconoAccion">
+              </td>
+            </tr>
+            <tr>
+              <td>2022102</td>
+              <td>TI 1088123499</td>
+              <td>Juan Felipe Montoya Ríos</td>
+              <td>10</td>
+              <td>A</td>
+              <td>Aprobado</td>
+              <td class="accionesCell">
+                <img src="icono-ver.png" alt="ver" class="iconoAccion">
+                <img src="icono-eliminar.png" alt="eliminar" class="iconoAccion">
+              </td>
+            </tr>
+            <tr>
+              <td>2022103</td>
+              <td>CC 1089456789</td>
+              <td>Luisa María Cruz Hernández</td>
+              <td>10</td>
+              <td>B</td>
+              <td>Reprobado</td>
+              <td class="accionesCell">
+                <img src="icono-ver.png" alt="ver" class="iconoAccion">
+                <img src="icono-eliminar.png" alt="eliminar" class="iconoAccion">
+              </td>
+            </tr>
+            <tr>
+              <td>2022104</td>
+              <td>TI 1088120099</td>
+              <td>Ana María Bedoya López</td>
+              <td>10</td>
+              <td>B</td>
+              <td>En curso</td>
+              <td class="accionesCell">
+                <img src="icono-ver.png" alt="ver" class="iconoAccion">
+                <img src="icono-eliminar.png" alt="eliminar" class="iconoAccion">
+              </td>
+            </tr>
+            <tr>
+              <td>2022105</td>
+              <td>TI 1087013499</td>
+              <td>Santiago Sánchez Rivera</td>
+              <td>10</td>
+              <td>A</td>
+              <td>En curso</td>
+              <td class="accionesCell">
+                <img src="icono-ver.png" alt="ver" class="iconoAccion">
+                <img src="icono-eliminar.png" alt="eliminar" class="iconoAccion">
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <!-- Paginacion -->
+        <div class="paginacion">
+          <span>Mostrando 1 a 5 de 150 registros</span>
+          <div class="botonesNav">
+            <button class="botnPag">Primero</button>
+            <button class="botnPag activo">1</button>
+            <button class="botnPag">3</button>
+            <button class="botnPag">4</button>
+            <button class="botnPag">5</button>
+            <button class="botnPag">Último</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
