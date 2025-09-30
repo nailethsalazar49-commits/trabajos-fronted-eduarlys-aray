@@ -1,0 +1,170 @@
+<!--header-->
+<div class="header">
+    <div class="logo">
+        <img src="/src/assets/iconoQUIPUX.png" alt="." class="iconoQUIPUX">
+
+    </div>
+
+    <div class="user">
+        <span>Carolina Fernández Echeverry</span>
+        <img src="assets/iconoUsuario.png" alt="Usuario" class="iconoUsuario">
+    </div>
+</div>
+<nav class="menuLateral">
+    <div class="estudiante"><a href="#">Estudiantes</a></div>
+    <div class="grupos"><a href="#">Grupos</a></div>
+    <div class="materias"><a href="#">Materias</a></div>
+    <div class="evaluaciones"><a href="#">Evaluaciones</a></div>
+    <div class="informes"><a href="#">Informes</a></div>
+</nav>
+<!--fin header-->
+
+    <!--incio de panel de filtros-->
+
+    <div class="main">
+        <div class="panel-filtros">
+            <h3 class="titulo-panel">Administración de estudiantes</h3>
+            <button class="btn-nuevo" routerLink="/estudiantes">⊕ Nuevo registro</button>
+            <div class="fila-filtros">
+                <div class="campo">
+                    <label>Grado</label>
+                    <select>
+                        <option>--</option>
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <label>Grupo</label>
+                    <select>
+                        <option>--</option>
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <label>Identificación</label>
+                    <select>
+                        <option>TI</option>
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <label>Número documento</label>
+                    <input type="text" placeholder="Número documento">
+                </div>
+
+                <div class="campo">
+                    <label>Estudiante</label>
+                    <select>
+                        <option>Seleccionar</option>
+                    </select>
+                </div>
+
+                <button class="btn-buscar">Buscar</button>
+                <button class="btn-limpiar">Limpiar filtros</button>
+            </div>
+        </div>
+
+
+        <!--fin panel de filtros-->
+
+<!--panel de estudiantes-->
+<div class="contenedor">
+    <div class="cabecera">
+        <h2>Resultados</h2>
+        <select>
+            <option>Mostrar 4</option>
+            <option>Mostrar 10</option>
+            <option>Mostrar 25</option>
+        </select>
+    </div>
+
+    <table>
+        <tr>
+            <th>Código</th>
+            <th>Identificación</th>
+            <th>Estudiante</th>
+            <th>Grado</th>
+            <th>Grupo</th>
+            <th>Estado</th>
+            <th>Acciones</th>
+        </tr>
+        <tr>
+            <td>2022101</td>
+            <td>TI 1088123456</td>
+            <td>Camila Fernández Rojas</td>
+            <td>10</td>
+            <td>A</td>
+            <td><span class="en-curso">En curso</span></td>
+            <td>
+                <button class="boton">👁</button>
+                <button class="boton">🗑</button>
+            </td>
+        </tr>
+        <tr>
+            <td>2022102</td>
+            <td>TI 1088123499</td>
+            <td>Juan Felipe Montoya Ríos</td>
+            <td>10</td>
+            <td>A</td>
+            <td><span class="aprobado">Aprobado</span></td>
+            <td>
+                <button class="boton">👁</button>
+                <button class="boton">🗑</button>
+            </td>
+        </tr>
+        <tr>
+            <td>2022103</td>
+            <td>CC 1089456789</td>
+            <td>Luisa María Cruz Hernández</td>
+            <td>10</td>
+            <td>B</td>
+            <td><span class="reprobado">Reprobado</span></td>
+            <td>
+                <button class="boton">👁</button>
+                <button class="boton">🗑</button>
+            </td>
+        </tr>
+        <tr>
+            <td>2022104</td>
+            <td>TI 1088120099</td>
+            <td>Ana María Bedoya López</td>
+            <td>10</td>
+            <td>B</td>
+            <td><span class="en-curso">En curso</span></td>
+            <td>
+                <button class="boton">👁</button>
+                <button class="boton">🗑</button>
+            </td>
+        </tr>
+        <tr>
+            <td>2022105</td>
+            <td>TI 1097013499</td>
+            <td>Santiago Sánchez Rivera</td>
+            <td>10</td>
+            <td>A</td>
+            <td><span class="en-curso">En curso</span></td>
+            <td>
+                <button class="boton">👁</button>
+                <button class="boton">🗑</button>
+            </td>
+        </tr>
+    </table>
+
+    <div class="pie">
+        <div class="pie-izquierda">
+            Mostrando 1 a 5 de 150 registros
+        </div>
+        <div class="pie-derecha">
+            <button class="pagina">Primero</button>
+            <button class="pagina pagina-activa">1</button>
+            <button class="pagina">2</button>
+            <button class="pagina">3</button>
+            <button class="pagina">4</button>
+            <button class="pagina">5</button>
+            <button class="pagina">Último</button>
+        </div>
+    </div>
+</div>
+<!--fin panel de estudiante -->
+
+</div>
