@@ -1,0 +1,99 @@
+/*header*/
+.header {
+  top: 0px;
+  left: 0px;
+  width: 1366px;
+  height: 60px;
+
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000015;
+  opacity: 1;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.iconoUsuario {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 40px;
+
+}
+
+.iconoUsuario {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+
+}
+
+/*barra lateral*/
+.menuLateral {
+  position: absolute;
+  width: 250px;
+  height: 50px;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  box-sizing: border-box;
+
+}
+
+/* menú lateral */
+.menuLateral {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 250px;
+  height: 100vh;
+  background-color: #f0f0f0;
+  z-index: 1000;
+ 
+}
+
+/* estilos de los div */
+.menuLateral div {
+  position: absolute;
+  width: 250px;
+  height: 50px;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+
+.estudiante {
+  top: 60px;
+  background-color: #C8CCD0;
+}
+
+.grupos {
+  top: 110px;
+  background-color: #C8CCD0;
+}
+
+.materias {
+  top: 160px;
+  background-color: #C8CCD0;
+}
+
+.evaluaciones {
+  top: 210px;
+  background-color: #C8CCD0;
+}
+
+.informes {
+  top: 260px;
+  background-color: #C8CCD0;
+}
