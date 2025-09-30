@@ -1,5 +1,5 @@
 # QuipuxMockup
-
+hola soy naileth para abrir este archivo descarga el zip la carpeta correcta es trabajos-fronted-eduarlys-aray,abre el archivo en vs code y ejecutalo con ng serve en la terminal para poder abrirlo con angular,quiero recalcar ademas que tuve problemas para insertar algunas imagenes en la pagina asi que las remplace por iconos,todo el html y el css esta documentado sobre que hace cada bloque de codigo en la maquetacion..espero les guste cabe aclarar que no suelo usar mucho css o html ya que trabajo mas con el tema de bases de datos
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.2.
 
 ## Development server
